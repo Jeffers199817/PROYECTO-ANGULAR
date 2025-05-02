@@ -5,8 +5,16 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'Jefferson Alquinga';
+  saludo = 'pequeño junior.';
+  nombre: string = 'Windows server';
+  version: number = 434;
+}
+
+export class InicioSystem {
+
+
 }
